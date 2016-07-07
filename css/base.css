@@ -10,9 +10,8 @@ body {
   width: 100%;
   text-align: center;
   background: #9C27B0;
-  color: #fff;
-  height: 80px;
-  padding-top: 15px;
+  color: #FAFAFA;
+  padding: 20px 0 5px 20px;
 }
 
 .head__logo {
@@ -24,4 +23,29 @@ body {
 
 .head__title {
   font-weight: 100;
+}
+
+.nav {
+  margin: 0;
+  background: #6A1B9A;
+  color: #F5F5F5;
+  padding: 15px;
+  display: flex;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline-block;
+  flex: 3 1 30%;
+  text-align: center;
+}
+
+.nav__item {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+
+.nav__item:hover {
+  text-decoration: none;
+  color: #E040FB;
 }
