@@ -1,0 +1,27 @@
+body {
+  font-family: "Helvetica";
+  margin: 0;
+  margin-top: -21px;
+  padding: 0;
+  top: 0;
+}
+
+.head {
+  width: 100%;
+  text-align: center;
+  background: #9C27B0;
+  color: #fff;
+  height: 80px;
+  padding-top: 15px;
+}
+
+.head__logo {
+  height: 60px;
+  width: auto;
+  float: left;
+  padding: 11px 5px 0 20px;
+}
+
+.head__title {
+  font-weight: 100;
+}
