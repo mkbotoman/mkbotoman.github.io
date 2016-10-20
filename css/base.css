@@ -74,6 +74,11 @@ body {
   height: 400px;
 }
 
+.about h2 {
+  font-size: 36px;
+  line-height: 5px;
+}
+
 .about__content {
   display: flex;
 }
