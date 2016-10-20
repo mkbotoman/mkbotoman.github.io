@@ -6,7 +6,7 @@ body {
 }
 
 .head {
-  background-image: url(../img/background.png);
+  background-image: url('../img/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -71,6 +71,7 @@ body {
 .about {
   background: #AA00FF;
   color: #fff;
+  height: 400px;
 }
 
 .about__content {
@@ -90,6 +91,10 @@ body {
   flex: 60;
 }
 
+.skills {
+  color: #4A148C;
+}
+
 .skills__list {
   display: flex;
   flex-wrap: wrap;
@@ -98,4 +103,43 @@ body {
 .skills__list li {
   flex: 20%;
   list-style-type: none;
+  margin-bottom: 25px;;
+}
+
+li img {
+  height: 100px;
+}
+
+.contact {
+  background: #AA00FF;
+  color: #fff;
+  padding: 30px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  line-height: 5px;
+}
+
+.contact p {
+  font-size: 18px;
+}
+
+.contact__content {
+  display: flex;
+}
+
+.contact__item {
+  padding: 15px;
+  flex: 20;
+}
+
+.contact__item img {
+  height: 75px;
+}
+
+.footer {
+  color: white;
+  padding: 15px;
+  background: #00BFA5;
 }
