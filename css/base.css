@@ -95,6 +95,11 @@ body {
   color: #4A148C;
 }
 
+.skills h2 {
+  font-size: 36px;
+  line-height: 5px;
+}
+
 .skills__list {
   display: flex;
   flex-wrap: wrap;
